@@ -1,0 +1,21 @@
+$color_titulo : chocolate;
+
+header {
+
+    h1 {
+        color: $color_titulo;
+    }
+}
+
+.marron {
+    color: maroon;
+}
+
+article {
+    >p {
+       @extend .marron;
+       font-size: 1.3rem;
+    }
+}
+
+
