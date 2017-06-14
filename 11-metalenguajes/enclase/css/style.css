@@ -4,7 +4,16 @@ header h1 {
 .marron, article > p {
   color: maroon; }
 
+[id="cabecera"] {
+  color : yellowgreen;
+}
+
+article p {
+  color: green;
+  font-size: 2rem; }
 article > p {
   font-size: 1.3rem; }
 
 /*# sourceMappingURL=style.css.map */
+
+

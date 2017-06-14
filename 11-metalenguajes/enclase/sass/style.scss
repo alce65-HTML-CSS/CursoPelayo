@@ -1,5 +1,11 @@
 $color_titulo : chocolate;
 
+
+@mixin base ($color: blueviolet) {
+    color: $color;
+     font-size: 2rem;
+}
+
 header {
 
     h1 {
@@ -12,10 +18,17 @@ header {
 }
 
 article {
+
+    p {
+        @include base (green);
+    }
+
     >p {
        @extend .marron;
        font-size: 1.3rem;
     }
+     
+
 }
 
 
